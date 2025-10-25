@@ -1,0 +1,27 @@
+.add-user-form{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-user-form form input{
+    height: 2rem;
+    border: 1px dotted black;
+    border-radius: 2px;
+    display: block;
+    margin: 20px;
+}
+
+.add-user-form form button{
+    margin: 20px;
+    background-color: rgb(0, 64, 255);
+    color: aliceblue;
+    border-radius: 3px;
+    display: block;
+
+}
